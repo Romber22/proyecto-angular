@@ -1,0 +1,47 @@
+/* Fuentes exportadas */
+@font-face {
+    font-family: "finger";
+    src: url('../../../assets/fonts/finger.ttf');
+}
+@font-face {
+    font-family: "selfish";
+    src: url('../../../assets/fonts/Selfish.ttf');
+}
+#title {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#title h1 {
+    font-family: "selfish";
+    font-size: 60px;
+    border-bottom: 1px solid #FACBEA;
+    padding-bottom: 5px;
+}
+
+#title h2 {
+    font-size: 25px;
+    color: #D988B9;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article.about {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.about h2 {
+    border-bottom: 1px solid #FACBEA;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.about p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}

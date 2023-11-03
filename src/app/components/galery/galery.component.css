@@ -1,0 +1,13 @@
+.galeria {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* tres columnas del mismo tamaño */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+.galeria img {
+    display: block;
+    width: 0px;
+    overflow: hidden;
+}

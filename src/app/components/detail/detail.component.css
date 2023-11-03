@@ -1,0 +1,53 @@
+.container {
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.container h2 {
+    border-bottom: 1px solid #FACBEA;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Máscara para las imágenes */
+.container .image {
+    width: 50%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.container .data,
+.container .botones {
+    float: left;
+    width: 40%;
+    margin-left: 30px;
+}
+
+.button {
+    display: block;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    color: #FFE4D6;
+    background-color: #B0578D;
+    border: 1px solid #B0578D;
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete {
+    background-color: rgb(150, 0, 0);
+    border: 1px solid black;
+}
+
+.botones span {
+    color: rgb(150, 0, 0);
+    display: block;
+    font-weight: bold;
+}

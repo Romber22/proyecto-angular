@@ -1,0 +1,11 @@
+.container {
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.container h2 {
+    border-bottom: 1px solid #FACBEA;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    display: block;
+}

@@ -1,0 +1,40 @@
+<div class="container">
+    <h2>Contacto</h2>
+
+    <div id="texto" #textos>
+        <p appResaltado>
+            Esta es la página de contacto, puedes enviarnos cualquier duda :)
+        </p>
+    </div>
+
+    <div>
+        <form #formContacto="ngForm" (ngSubmit)="onSubmit(formContacto)">
+            <label for="asunto">Asunto:</label>
+            <input type="text" name="motivo" ngModel required /><br/>
+            <textarea name="descripcion" placeholder="Escriba aquí la duda que desee consultarnos..." ngModel></textarea><br/>
+            <input type="submit" name="enviar" value="Enviar" />
+        </form>
+    </div>
+
+    <!-- Tamaño de las imágenes: 
+    <input type="number" [(ngModel)]="widthGalery" />
+    
+    <select [(ngModel)]="velocityGalery">
+        <option [value]="item" *ngFor="let item of optionsVelocity">{{item}}</option>
+    </select>
+    
+    <button (click)="cargarGalery()">Mostrar</button>
+    <button (click)="resetGalery()">Limpiar</button>
+
+    <div *ngIf="anchuraToGalery && velocidadToGalery">
+        <galery [anchura]="anchuraToGalery"
+                [velocidad]="velocidadToGalery"
+                (mostrarAutor)="getAutor($event)">
+        </galery>
+    </div>
+
+    <div class="autor" *ngIf="autor">
+        Autor: {{autor.nombre}} <br/>
+        Web: {{autor.web}}
+    </div> -->
+</div>
